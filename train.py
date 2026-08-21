@@ -101,7 +101,7 @@ def train_kfold(csv_file, num_epochs=30, batch_size=16, k_folds=5, learning_rate
 
 if __name__ == '__main__':
     # 학습할 CSV 파일 이름 (직접 만든 파일 이름으로 변경하세요)
-    CSV_FILE_PATH = "bloodstain_data.csv"
+    CSV_FILE_PATH = "data.csv"
     
     # 샘플 CSV 파일이 없는 경우를 위한 안내 (데이터셋 생성 후 실행할 수 있도록)
     if not os.path.exists(CSV_FILE_PATH):
