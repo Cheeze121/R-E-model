@@ -25,7 +25,7 @@
 ### 2. 필요한 라이브러리 설치
 터미널을 열고 다음 명령어를 통해 라이브러리를 설치합니다.
 ```bash
-pip install torch torchvision pandas numpy opencv-python scikit-learn pillow
+pip install -r requirements.txt
 ```
 
 ### 3. 학습 시작하기
